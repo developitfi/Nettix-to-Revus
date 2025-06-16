@@ -1,0 +1,42 @@
+/* Nettix to Revus - Brändätty ulkoasu */
+
+.wrap h1 {
+    color: #ff618d;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.wrap h2 {
+    color: #4addef;
+    border-bottom: 2px solid #ffb155;
+    padding-bottom: 4px;
+    margin-top: 2em;
+}
+
+button.button-primary {
+    background: linear-gradient(90deg, #ff618d 0%, #ffb155 100%);
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+button.button-primary:hover {
+    background: linear-gradient(90deg, #ffb155 0%, #ff618d 100%);
+    cursor: pointer;
+}
+
+.notice-success {
+    border-left-color: #1de173 !important;
+}
+
+.notice-error {
+    border-left-color: #ff8287 !important;
+}
+
+#nettix-brand-logo {
+    max-height: 36px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
